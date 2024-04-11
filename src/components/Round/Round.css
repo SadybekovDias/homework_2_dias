@@ -1,4 +1,20 @@
-.krug {
+.circle-loto {
+    display: flex;
+    justify-content: center;
+}
+
+.loto {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 22px;
+}
+button {
+    padding: 10px;
+    font-size: 20px;
 }

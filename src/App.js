@@ -65,11 +65,13 @@ class App extends Component {
     return (
       <div className="App">
       <button onClick={this.changeNumber}>New Numbers!</button>
+      <div className='circle-loto'>
       <Round num={this.state.numb[0].number}/>
       <Round num={this.state.numb[1].number}/>
       <Round num={this.state.numb[2].number}/>
       <Round num={this.state.numb[3].number}/>
       <Round num={this.state.numb[4].number}/>
+      </div>
       
   
       </div>
