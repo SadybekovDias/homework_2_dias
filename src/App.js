@@ -20,6 +20,9 @@ class App extends Component {
   changeNumber = () => {
     const newNumbArr = this.state.numb.map((number) => {
       const newNumb = {...number};
+      // do {
+      //   randomNumber = this.randomInteger(6, 36);
+      // } while (this.state.numb.has);
       newNumb.number = this.randomInteger(6, 36);
       return newNumb;
     })
